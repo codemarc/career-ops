@@ -1,0 +1,66 @@
+# Career-Ops Profile Configuration
+# Single source of truth for personal data across modes.
+
+candidate:
+  full_name: "Marc J. Greenberg"
+  email: "marc.greenberg@codemarc.net"
+  phone: "+1-516-313-4826"
+  location: "Delray Beach, FL"
+  linkedin: "linkedin.com/in/codemarc"
+  portfolio_url: "https://codemarc.net"
+  github: "github.com/codemarc"
+  twitter: "https://x.com/codemarc"
+  # (Optional) Canva resume design ID for visual CV generation via /career-ops pdf.
+  # canva_resume_design_id: "DAxxxxxxxxx"
+
+target_roles:
+  primary:
+    - "Fractional CTO"
+    - "Chief of Staff / Office of the CTO"
+    - "Enterprise Platform Architect"
+  archetypes:
+    - name: "Fractional CTO / Technology Executive"
+      level: "Executive"
+      fit: "primary"
+    - name: "AI Strategy & Agent Orchestration"
+      level: "Principal / Executive"
+      fit: "primary"
+    - name: "Enterprise Integration & Platform Architecture"
+      level: "Principal / Staff+"
+      fit: "secondary"
+    - name: "Product Incubation & MVP Delivery"
+      level: "Senior / Executive"
+      fit: "secondary"
+
+narrative:
+  headline: "Fractional CTO | AI Strategy, product incubation & agent orchestration | Enterprise platform architect"
+  exit_story: "Technology executive and architect across integration, data platforms, analytics, hospitality tech, and AI-native products—turning ambiguous goals into systems: strategy, architecture, MVP delivery, operating model, and commercial alignment. Founder/builder at BrainTrailz, CodeMarc, Beyond Limited Thinking; comfortable on roadmap, agentic tooling, and hands-on delivery."
+  superpowers:
+    - "AI strategy & product commercialization"
+    - "Enterprise platform & integration architecture"
+    - "Agent orchestration & workflow automation"
+    - "Fractional CTO leadership and engineering-to-business translation"
+    - "Build / buy / integrate decisions under real constraints"
+  proof_points:
+    - name: "Beyond Limited Thinking (BLT Core)"
+      url: "https://codemarc.net"
+      hero_metric: "End-to-end tech strategy for AI-native hospitality platform (POS, gateway, data layer, control plane)"
+    - name: "ADAM (BrainTrailz / CodeMarc)"
+      url: "https://codemarc.net"
+      hero_metric: "Local-first routine engine & operator console for data, automation, messaging, and multichannel delivery"
+    - name: "U.S. Patent 7,421,709"
+      url: "https://patents.google.com/patent/US7421709"
+      hero_metric: "Co-inventor — enterprise application integration adapter framework (iWay era)"
+
+compensation:
+  # Adjust to your target; fractional is often project/day-rate—set what you optimize for.
+  target_range: "$225K-400K"
+  currency: "USD"
+  minimum: "$200K"
+  location_flexibility: "Remote preferred; open to travel for key engagements"
+
+location:
+  country: "United States"
+  city: "Delray Beach"
+  timezone: "America/New_York"
+  visa_status: "No sponsorship needed"
